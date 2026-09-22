@@ -3,7 +3,6 @@ package com.fatec.product.controllers;
 import java.net.URI;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +16,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.fatec.product.dtos.ProductRequest;
 import com.fatec.product.dtos.ProductResponse;
-import com.fatec.product.entities.Product;
 import com.fatec.product.services.ProductService;
 
 @RestController
